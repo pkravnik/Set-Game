@@ -20,6 +20,11 @@ struct ShapePreview: View {
                 .stroke(Color.blue, lineWidth: 3)
                 .aspectRatio(aspectRatio, contentMode: .fit)
                 .frame(width: 200, height: 200)
+            
+            Squiggle()
+                .stroke(Color.green, lineWidth: 3)
+                .aspectRatio(aspectRatio, contentMode: .fit)
+                .frame(width: 200, height: 200)
         }
     }
 }
